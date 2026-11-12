@@ -23,7 +23,7 @@ Conjunto de prueba: 114 pacientes, 42 con tumor maligno. La clase positiva es **
 | SVM (RBF, C=10) | 0.9737 | 1.0000 | 0.9286 | 0.9630 | 3 | 0 |
 | MLP (16 neuronas, alpha=3) | 0.9825 | 1.0000 | 0.9524 | 0.9756 | 2 | 0 |
 
-MLP obtuvo el mejor resultado y KNN el peor, con 7 errores. La ventaja de MLP sobre SVM es de un solo paciente, y en validación cruzada quedan muy parejos. Para este problema la métrica principal es el recall, porque un maligno clasificado como benigno es el error más grave. El análisis completo está al final del notebook.
+MLP obtuvo el mejor resultado y KNN el peor, con 7 errores. La ventaja de MLP sobre SVM fue de un solo paciente, y en validación cruzada quedan muy parejos. Para el problema la métrica principal es el recall, porque un maligno clasificado como benigno es el error más grave. El análisis completo está al final del notebook.
 
 ## Archivos
 
